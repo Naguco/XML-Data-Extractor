@@ -10,7 +10,7 @@ json = xmltodict.parse(xml)
 
 # Get the path to the roots of the XML document from the input of the user
 root_path = sys.argv[1]
-root_path = "n0:" + root_path[1:0]
+root_path = "n0:" + root_path[1:]
 
 # Split the path into an array of the different nodes
 root_path_array = root_path.split("/")
