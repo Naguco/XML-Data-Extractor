@@ -2,7 +2,7 @@ import xmltodict
 import sys
 
 # Read the XML file
-with open("data.xml", "r") as xml_file:
+with open("data.xml", "r", encoding="utf-8") as xml_file:
     xml = xml_file.read()
 
 # Parse the XML into a dictionary
