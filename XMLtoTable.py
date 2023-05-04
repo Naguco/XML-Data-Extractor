@@ -1,10 +1,3 @@
-# import xml.etree.ElementTree as ET
-
-# tree = ET.parse('./data.xml')
-# root = tree.getroot()
-
-# print([x.text for x in root.findall(".//event_reason")])
-
 import xmltodict
 import sys
 
